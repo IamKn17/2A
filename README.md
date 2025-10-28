@@ -10,7 +10,7 @@ Comments: Managed as a singly linked list, attached to each post.
 
 Replies: Managed as a singly linked list, attached to each comment.
 
-View History: A singly linked list is used to track the post viewing history, enabling the current_post functionality.
+History: A singly linked list is used to track the post viewing history, enabling the current_post functionality.
 
 Features & Commands
 
@@ -77,20 +77,3 @@ Cleaning Up
 To remove the compiled executable and all intermediate object files (.o), run:
 
 make clean
-
-
-File Structure
-
-106124072/2A/
-├── Makefile           # The build script
-├── program            # The compiled executable (after running 'make')
-└── code/
-    ├── main.c         # Handles user input and the main application loop
-    ├── platform.h     # Header for the main platform logic
-    ├── platform.c     # Implementation of the platform logic
-    ├── post.h         # Header for the Post data structure
-    ├── post.c         # Implementation of Post functions
-    ├── comment.h      # Header for the Comment data structure
-    ├── comment.c      # Implementation of Comment functions
-    ├── reply.h        # Header for the Reply data structure
-    └── reply.c        # Implementation of Reply functions
