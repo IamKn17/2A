@@ -18,7 +18,7 @@ The platform supports the following commands:
 
 create_platform: Initializes the platform.
 
-add_post <username> <caption_content>: Adds a new post.
+add_post username <caption_content>: Adds a new post.
 
 delete_post <post_number>: Deletes a post by its 1-based index.
 
@@ -30,7 +30,7 @@ next_post: Moves to and displays the post immediately following the current one.
 
 previous_post: Moves to and displays the post immediately preceding the current one.
 
-add_comment <username> <comment_content>: Adds a comment to the current post.
+add_comment username <comment_content>: Adds a comment to the current post.
 
 delete_comment <comment_number>: Deletes a comment from the current post by its 1-based index.
 
@@ -54,7 +54,7 @@ make
 
 Compilation
 
-Navigate to the 106124072/2A/ directory in your terminal.
+Navigate to the 2A/ directory in your terminal.
 
 Run the make command:
 
