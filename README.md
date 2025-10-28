@@ -61,7 +61,7 @@ Run the make command:
 make
 
 
-This will compile all .c files from the code/ directory, link the object files, and create an executable named program in the 106124072/2A/ directory.
+This will compile all .c files from the code/ directory, link the object files, and create an executable named program in the 2A/ directory.
 
 Running the Program
 
